@@ -5,10 +5,10 @@ Console.WriteLine("Byeee");
 
 static int Average(int[] nums)
 {
-    int sum = 0;
+    int sumer = 0;
     for (int i = 0; i < nums.Length; i++)
     {
-        sum += nums[i];
+        sumer += nums[i];
     }
-    return sum/nums.Length;
+    return sumer/nums.Length;
 }
