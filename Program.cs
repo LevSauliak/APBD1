@@ -5,12 +5,12 @@ Console.WriteLine("Byeee");
 
 static int Average(int[] nums)
 {
-    int sum = 0;
+    int summa = 0;
     for (int i = 0; i < nums.Length; i++)
     {
-        sum += nums[i];
+        summa += nums[i];
     }
-    return sum/nums.Length;
+    return summa/nums.Length;
 }
 
 static int Max(int[] nums)
